@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Penjualan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Website Penjualan</h1>
+        <div class="input-section">
+            <input type="text" id="item-name" placeholder="Nama Item">
+            <input type="number" id="item-price" placeholder="Harga Item">
+            <button id="add-item" class="btn">Tambah Item</button>
+        </div>
+        <div class="item-list">
+            <!-- Daftar item akan ditampilkan di sini -->
+        </div>
+        <div class="total">
+            <p>Total: <span id="total-price">0</span></p>
+            <button id="pay" class="btn">Bayar</button>
+            <button id="print-receipt" class="btn">Cetak Receipt</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
